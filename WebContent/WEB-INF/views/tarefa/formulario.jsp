@@ -8,7 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>Aidiconar tarefas</h3>
+    <a href="listaTarefas">Lista tarefa</a>
+	<h3>Adiconar tarefas</h3>
 	<form:errors path="tarefa.descricao" />
 	<form action="adicionaTarefa" method="post">
 	Descricao:<br />

@@ -7,8 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>adicionado com sucesso</h1>
-<a href="adicionaTarefa">voltar</a>
-
+	<h2>Pagina de login das tarefas</h2>
+	<form action="efetuaLogin" method="post">
+	Login<input type="text" name="login" /> <br />
+	Senha<input type="password" name="senha" /> <br />
+	<input type="submit" value="Logar" />
+	</form>
 </body>
 </html>

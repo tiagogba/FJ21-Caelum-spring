@@ -7,8 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>adicionado com sucesso</h1>
-<a href="adicionaTarefa">voltar</a>
 
+<h2>Pagina inicial</h2>
+<p>Bem vindo, ${usuarioLogadologin}</p>
+<a href="listaTarefas">Clique aqui</a>
 </body>
 </html>
