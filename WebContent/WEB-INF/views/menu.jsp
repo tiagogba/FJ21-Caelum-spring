@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -11,5 +12,7 @@
 <h2>Pagina inicial</h2>
 <p>Bem vindo, ${usuarioLogadologin}</p>
 <a href="listaTarefas">Clique aqui</a>
+<a href="adicionaTarefa">AdicionarTarefa</a>
+<a href="logout">Sair do sistema</a>
 </body>
 </html>
